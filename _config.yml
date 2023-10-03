@@ -2,7 +2,7 @@
 title: jy365Blog
 SEOTitle: jy365的博客 | jy365Blog
 # header-img: 
-email: zjkgf@163.com
+# email: zjkgf@163.com
 description: "今星期天, 星期天, Jxqt, 周天, 礼拜天, @周日, 今星期天的博客, jxqt Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 keyword: "今星期天, 星期天, Jxqt, 周天, 礼拜天, @周日, 今星期天的博客, jxqt Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://jy365.github.io"              # your host, for absolute URL
@@ -73,7 +73,7 @@ kramdown:
 
 
 # Sidebar settings
-sidebar: false                        # whether or not using Sidebar.
+# sidebar: false                        # whether or not using Sidebar.
 # sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
 # sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -81,12 +81,12 @@ sidebar: false                        # whether or not using Sidebar.
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+# featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
+chrome-tab-theme-color: "#87CEFA"
 service-worker: true
 
 
@@ -158,4 +158,4 @@ friends: [
 
 ]
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
