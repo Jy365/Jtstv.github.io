@@ -34,7 +34,7 @@
 {% if page.title == 'Archive' %}
 <!-- jquery.tagcloud.js -->
 <script>
-    async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}',function(){
+    async('{{ "" | prepend: site.baseurl }}',function(){
         $.fn.tagcloud.defaults = {
             //size: {start: 1, end: 1, unit: 'em'},
             color: {start: '#bbbbee', end: '#2f93b4'},
@@ -46,9 +46,4 @@
 {% endif %}
 
 <!--fastClick.js -->
-<script>
-    async("/js/88.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
+
